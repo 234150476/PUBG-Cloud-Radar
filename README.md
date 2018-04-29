@@ -8,7 +8,7 @@ You need an extra linux server to be the man in the middle
 
 Server running command：
 ```bash
-yum install git;git clone https://github.com/794959818/PUBG-Radar-Onekey.git; chmod +x . /root/PUBG-Radar-Onekey/update.sh;. /root/PUBG-Radar-Onekey/update.sh
+yum install git;git clone https://github.com/234150476/PUBG_XiNian_02.git; chmod +x . /root/PUBG_XiNian_02/update.sh;. /root/PUBG_XiNian_02/update.sh
 ```
 
 ## Translation
