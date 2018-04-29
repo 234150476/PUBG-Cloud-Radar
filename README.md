@@ -1,6 +1,7 @@
 # Sci Chicken
 
 A PUBG pcap playback system that does not hog CPU/GPU, works with version 3.7.33
+因地图服务器出现问题，所以改成本地地图版。
 
 ## Sniff
 
