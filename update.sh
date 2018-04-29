@@ -28,7 +28,7 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/234150476/PUBG_Cloud-Radar.git
+git clone https://github.com/234150476/PUBG-Cloud-Radar.git
 cd PUBG_Cloud-Radar/
 npm i
 npm i -g pino
