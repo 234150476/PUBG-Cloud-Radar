@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "欢迎使用一键搭建"
-echo "即将搭建的是4.29版本"
+echo "即将搭建的是4.29版本，本地地图版"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
@@ -28,7 +28,7 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/234150476/PUBG_XiNian_02.git
+git clone https://github.com/234150476/PUBG_Cloud-Radar.git
 cd pubg1/
 npm i
 npm i -g pino
