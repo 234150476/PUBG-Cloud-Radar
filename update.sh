@@ -29,7 +29,7 @@ make
 make install
 
 git clone https://github.com/234150476/PUBG_Cloud-Radar.git
-cd pubg1/
+cd PUBG_Cloud-Radar/
 npm i
 npm i -g pino
 npm install -g forever
