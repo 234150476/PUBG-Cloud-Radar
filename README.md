@@ -9,7 +9,7 @@ You need an extra linux server to be the man in the middle
 
 Server running command：
 ```bash
-yum install git;git clone https://github.com/234150476/PUBG_Cloud-Radar.git; chmod +x . /root/PUBG_Cloud-Radar/update.sh;. /root/PUBG_Cloud-Radar/update.sh
+yum install git;git clone https://github.com/234150476/PUBG-Cloud-Radar.git; chmod +x . /root/PUBG-Cloud-Radar/update.sh;. /root/PUBG-Cloud-Radar/update.sh
 ```
 
 ## Translation
