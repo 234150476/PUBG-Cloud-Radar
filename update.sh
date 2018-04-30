@@ -28,6 +28,7 @@ cd libpcap-1.8.1
 make
 make install
 
+cd /root
 cd PUBG-Cloud-Radar/
 npm i
 npm i -g pino
