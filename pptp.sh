@@ -3,9 +3,9 @@ echo "欢迎使用一键搭建"
 echo "即将搭建的是4.30版本，本地地图版"
 echo "准备开始安装"
 read -p "回车后开始安装"
-wget http://files.cnblogs.com/files/wangbin/vpn_centos.sh
-chmod +x ./vpn_centos.sh
-./vpn_centos.sh
+wget http://files.cnblogs.com/files/wangbin/vpn_centos.sh && 
+chmod +x ./vpn_centos.sh && 
+./vpn_centos.sh && 
 
 echo "ss搭建成，请记住连接信息"
 read -p "记住了吗？任意键继续" 
