@@ -5,8 +5,6 @@ echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/PUBG-Cloud-Radar/restart.sh /root/restart.sh
-chmod +x restart.sh
 wget http://files.cnblogs.com/files/wangbin/vpn_centos.sh
 chmod +x ./vpn_centos.sh
 ./vpn_centos.sh
@@ -33,6 +31,8 @@ cd PUBG-Cloud-Radar/
 npm i
 npm i -g pino
 npm install -g forever
-forever start index.js sniff eth0 $ip | pino
+chmod +x . /root/PUBG-Cloud-Radar/update.sh
+. /root/PUBG-Cloud-Radar/restart.sh
+
 
 echo "搭建完成"
