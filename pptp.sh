@@ -5,7 +5,7 @@ echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/PUBG-Radar-Onekey/restart.sh /root/restart.sh
+cp /root/PUBG-Cloud-Radar/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget http://files.cnblogs.com/files/wangbin/vpn_centos.sh
 chmod +x ./vpn_centos.sh
